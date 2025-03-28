@@ -9,6 +9,8 @@ public class Main {
         student2.displayStudent();
 
         //Demonstrates polymorphism
+
+        //Testing method overloading
         MathOperations math = new MathOperations();
         System.out.println("Multiplication of 2 numbers: " + math.multiply(2, 3));
         System.out.println("Multiplication of 3 numbers: " + math.multiply(2, 3, 7));
