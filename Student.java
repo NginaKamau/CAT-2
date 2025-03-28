@@ -31,7 +31,7 @@ public class Student {
         }
     }
 
-    //method that will bbe used to display student details
+    // the method that will bbe used to display student details
     public void displayStudent(){
         System.out.println("Name of Student:"+ name);
         System.out.println("Student Grade:" +grade);
