@@ -28,7 +28,11 @@ public class Main {
 
         myFan.turnOn();
         myTV.turnOn();
+
+
     }
+
+
 
 
 
