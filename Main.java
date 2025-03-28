@@ -5,5 +5,19 @@ public class Main {
 
         student1.displayStudent();
         student2.displayStudent();
+
+        MathOperations math = new MathOperations();
+        System.out.println("Multiplication of 2 numbers: " + math.multiply(2, 3));
+        System.out.println("Multiplication of 3 numbers: " + math.multiply(2, 3, 7));
+
+        // Testing method overriding
+        Animal myDog = new Dog();
+        Animal myCat = new Cat();
+
+        myDog.makeSound();
+        myCat.makeSound();
     }
+
+
+
 }
